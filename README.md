@@ -1,1 +1,1 @@
-# do-it-yourself
+# do it yourself
