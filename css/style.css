@@ -1,0 +1,35 @@
+/*-------------------REGLAS POR DEFECTO ------------------*/
+
+* {
+    box-sizing: border-box;
+    /* font */
+}
+
+.box {
+    background-color: #85FFBD;
+    background-image: linear-gradient(90deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*-------------------REGLAS QUE DEBES DE AGREGAR TU------------------*/
+
+#header img {
+    -webkit-filter: grayscale(50%);
+}
+
+.ext {
+    padding: 1.7vw;
+}
+
+
+/* REGLAS AUXILIARES */
+
+.margin {
+    margin: 3%;
+}
